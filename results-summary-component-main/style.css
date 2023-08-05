@@ -35,3 +35,38 @@
     justify-content: center;
     
 }
+.box-2{
+    width: 200px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: aliceblue;
+    gap: 18px;
+    padding: 30px 20px;
+    box-shadow: 10px (from left hsl(241, 100%, 89%));
+}
+.card{
+    display: flex;
+    padding: 10px;
+    background-color: lightskyblue;
+    width: 150px;
+    font-size: smaller;
+    font-weight: 500;
+    justify-content: space-between;
+    align-items: center;
+}
+.cardlist{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    display: flex;
+    gap: 8px;
+}
+.score{
+    display: flex;
+}
